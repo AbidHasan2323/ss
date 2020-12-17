@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  
+font-family:"Amatic SC", cursive;
+font-family:"Nunito", sans-serif;
+font-family: "Open Sans",sans-serif;
+}
+/*  
+
+
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap"rel="stylesheet">);
+
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-25 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-75 {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito"sans-serif;
+    font-weight: 700;
+
+}
+.section.padding-top {
+    padding-top: 80px;
+}
+.section-padding-bottom {
+    padding-bottom: 80px;
+}
+
+/* ......02. header css..... */
+header {
+    background: #84cbc4;
+}
+
+.main-menu {
+    float: right;
+    padding: 25px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.logo img {
+    height: 85px;
+}
+
+/* ......02. home css..... */
+.home {
+   background-image: url(../images/h1-slide-1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+}
+
+.home-content {
+    padding: 200px 0px;
+}
+
+
+.home-content h1 {
+    font-size: 120px;
+    color: #85CCC5;
+    font-family: "Nunito", serif;
+    line-height: 120px;
+}
+.home-content h6 {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Nunito", serif;
+    color: #555555;
+    padding: 50px 3px;
+}
+
+.btn{
+    display: inline-flex;
+}
+
+.btn {
+    clear: both;
+    display: block;
+}
+
+.btn a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background-color: #FED072;
+    text-decoration: none;
+    color:#212121;
+    transition: .3s;
+}
+.btn a:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+
+/*...03. category-box css... */
+
+.category-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 75px 25px;
+}
+
+.category-box-1{
+    background-image: url(../images/h1-box-1.jpg);
+
+}
+
+.category-box-2{
+    background-image: url(../images/h1-box-2.png);
+}
+.category-box-3{
+    background-image: url(../images/h1-box-3.jpg);
+}
+
+.category-box h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 31px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 138px;
+}
+.category-box p{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Nunito", sans;
+    font-weight: 700;
+}
+.col-p-0 .col-33 {
+    padding: 0;
+}
+
+section.category-all-box {
+    margin-top: 120px;
+}
+/*...03. category-box css... */
+
+
+/* .......04 category css ......... */
+
+.ctg-title h4 {
+    font-size: 25px;
+    color: #434343;
+    padding: 25px 88px;
+    font-family: sans-serif;
+}
+.category-all-item {
+    padding-top: 20px;
+}
+.ctg-title img {
+    float: left;
+}
+.ctg-title p {
+    clear: both;
+    display: inline-block;
+}
+.category-item-1 p {
+    clear: both;
+    padding-top: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+
+
+/*....learning css..start.... */
+.learning {
+    background-image: url(../images/h1-kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 800px;
+}
+.learning .col-50 {
+    float: right;
+}
+.learing-box {
+    width: 492px;
+    height: 470px;
+    background: #FccE71;
+    padding: 60px 70px;
+}
+.learing-box h3 {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.learing-box p {
+    font-size:  17px;
+    color: #313131;
+    padding: 8px 0;
+    padding-bottom:50px;
+}
+.learning-box .btn{
+    padding: 20px 20px;
+    background: #ffffff;
+}
+
+.learning-box .btn a {
+    color: #212121;
+}
+
+/*....learning css..end.... */
+
+/* .........event-part-start....... */
+
+
+.event-bg img{
+    height: 200px;
+    width: 350px;
+    transition: .7s;
+}
+.event-bg span{
+    background-color: #FDCF71;
+    padding: 15px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.event-bg:hover img{
+    transform: scale(1.1);
+    transition: .7s;
+}
+.event-bg:hover span{
+    background-color: #131212ec;
+    color: #fff;
+    transition: .3s;
+}
+.event-item h4{
+    font-size: 25px;
+    padding: 15px 0px;
+}
+.event-item h4:hover{
+    color: #FDCF71;
+    
+}
+.event-item li{
+    list-style: none;
+    color: gray;
+    padding: 3px 0px;
+}
+.event-all-item{
+    padding: 60px 0px;
+}
+/* .........event-part-end....... */
+
+
+
+/* --------03-potential-part-start----------- */
+.potential-bg{
+    background-image: url(../img/h1-birds.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 350px;
+    width: 100%;
+    height: 100vh;
+}
+.potential-cnt{
+    margin-top: 130px;
+}
+.author img {
+    height: 350px;
+    width: 530px;
+}
+
+.potential span img {
+    
+    position: relative;
+    top: -228px;
+    left: 233px;
+}
+.potential-right {
+    margin: 0px 30px;
+}
+.potential-right h3{
+    font-size: 39px;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.potential-right p {
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+.potential-right span{
+    font-size: 48px;
+    display: inline-block;
+    color: #F5C96D;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin: 0px 50px;
+}
+.potential-right span p {
+    font-size: 17px;
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+/* --------03-potential-part-start----------- */
+
+
+/* --------------04-courses-part--start------ */
+.courses-header{
+    text-align: center;
+    margin: 120px 0px
+}
+.courses-header h3{
+    font-size: 47px;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.popular-courses p{
+    font-size: 18px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.cources {
+    height: 500px;
+    width: 330px;
+    border: 1px solid #e1e1e1;
+    
+    overflow: hidden;
+}
+.cources:hover img{
+    transform: scale(1.1);
+    
+}
+.cources img{
+    width: 100%;
+    height: 225px;
+    transition: .5s;
+}
+.cources-box{
+    margin: 28px;
+   
+}
+.cources-box h3{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #434343;
+    margin: 20px 0px ;
+    
+
+}
+.cources-box span{
+    background-color: #F5C96D;
+    color: #f9f8f8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding: 5px 5px;
+    position: relative;
+    top: -50px;
+    left: 250px;
+}
+.cources-box a{
+    font-size: 14px;
+    color: #B9B9B9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: -43px;
+}
+.cources-box p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #888888;
+}
+.courcse-src{
+    border-top: 1px solid #e1e1e1;
+    padding: 15px 0px;
+}
+.courcse-src span{
+    padding-left: 30px;
+    color: #888888;
+}
+/* --------------04-courses-part--end------ */
+
+
+/* -------05-input-part-start-------- */
+.input-bg{
+    background-image: url(../img/h1-image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 600px;
+}
+.all-input {
+    margin: 85px 0px 0px 171px;
+}
+.all-input h3{
+    font-size: 40px;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-left: 45px;
+}
+.all-input input{
+    height: 50px;
+    width: 280px;
+    padding-left: 25px;
+    margin: 40px 0px 40px 20px;
+    border: 1px solod #434343;
+}
+.all-input input:last-child{
+    width: 170px;
+    height: 60px;
+    padding: 0px;
+    border: none;
+    background-color: #f9bf4a;
+    color: #fff;
+}
+.footer-bg{
+    background-image: url(../img/h1-footer-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* -------05-input-part-end-------- */
+
+
+/* -----------06-footer-part---start---- */
+.footer-bg ul{
+
+}
+.footer-bg ul li h3{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.footer-bg ul li{
+    list-style: none;
+    margin: 15px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #434343;
+    
+}
+.footer-bg ul li a:hover{
+    color: #F8C96A;
+}
+.footer-bg ul li a{
+    text-decoration: none;
+    color: #434343;
+    transition: .4s;
+}
+/* -----------06-footer-part---end---- */
+
+
+/* ------06-footer-last-section-start------ */
+.last{
+    padding: 310px 0px;
+    
+}
+.last-left a{
+    text-decoration: none;
+    color: #434343; 
+}
+.last-left p{
+    display: inline; 
+}
+
+.last-right ul{
+     float: right;
+     display: inline;
+}
+.last-right ul li{
+    
+    display: inline;
+}
+.last-right ul li:first-child{
+    padding-right: 20px;  
+}
+
+#fb{
+    color: rgb(39, 94, 212);
+}
+#tw{
+    color: rgb(37, 163, 236);
+}
+#ins{
+    color: rgb(201, 34, 117);
+}
+#gmail{
+    color: rgb(255, 41, 41);
+}
+
+
+/* ------06-footer-last-section-start------ */
+
+
+
+
+
+
+
+
+
+
+
